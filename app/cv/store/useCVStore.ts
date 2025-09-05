@@ -73,7 +73,7 @@ const initialCV: CV = {
     categoriiSelectate: [],
     detalii: []
   },
-  templateStyle: 'modern'
+  templateStyle: 'compact'
 }
 
 // Generate unique session ID for each app load
