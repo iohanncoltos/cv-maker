@@ -1,5 +1,12 @@
 import type { Metadata } from 'next'
-import './globals.css'  // CHANGED: fără 's' la sfârșitul numelui
+import { Inter } from 'next/font/google'
+import './globals.css'
+
+const inter = Inter({
+  subsets: ['latin', 'latin-ext'],
+  variable: '--font-inter',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: 'Team CV Builder',
@@ -13,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ro" suppressHydrationWarning>
-      <body className="font-sans antialiased">
+      <body className={`${inter.variable} font-sans antialiased`}>
         {children}
       </body>
     </html>
