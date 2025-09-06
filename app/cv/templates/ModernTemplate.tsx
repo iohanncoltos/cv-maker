@@ -23,7 +23,7 @@ export default function ModernTemplate({ cv }: ModernTemplateProps) {
   }
 
   const projectName = "Platforma aeriana fără pilot (UAV) telecomandata, dotată cu lansator de grenade fără recul cal. 40 mm (UAV - RPG-7*)"
-  const footerText = 'Acest CV este destinat exclusiv colaborării în cadrul proiectului "Sistem UAV cu Lansator Grenade Termobarice" © 2025 S.C. INTER MAX S.R.L. - Toate drepturile rezervate'
+  const footerText = 'Acest CV este destinat exclusiv colaborării în cadrul proiectului "UAV - RPG-7*" © 2025 S.C. INTER MAX S.R.L. - Toate drepturile rezervate'
 
   return (
     <div className="bg-amber-50 text-black min-h-full flex flex-col" style={{backgroundColor: '#fffbeb', maxWidth: '100%', overflow: 'hidden'}}>
